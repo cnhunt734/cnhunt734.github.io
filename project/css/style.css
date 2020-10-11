@@ -1,0 +1,8 @@
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:rgb(195, 236, 234);
+  }
+  h1 {
+      color: rgb(78, 77, 77);
+  }
