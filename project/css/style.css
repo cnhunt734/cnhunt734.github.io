@@ -44,15 +44,16 @@ nav li {
 }
 footer div.info {
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 footer {
-    background-color: navy;
+    background-color: rgb(53, 53, 218);
     color: whitesmoke;
     display: flex;
 }
 .social {
-margin-left: 500px;
+margin-left: 325px;
 margin-top: 250px;
+padding: 10px;
 display: block
 }
