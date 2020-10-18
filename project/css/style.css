@@ -1,8 +1,58 @@
 header, main, footer {
     max-width: 960px;
     margin: 0 auto;
-    background-color:rgb(195, 236, 234);
+    background-color:rgb(227, 241, 241);
+    font-size: 1 rem    ;
   }
   h1 {
-      color: rgb(78, 77, 77);
+      color: rgb(12, 26, 19);
   }
+  header {
+    background-color: rgb(229, 240, 236);
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-size: 16px;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    }
+    
+nav {
+    display:flex;
+    list-style:none;
+    font-size: 1 rem;
+}
+nav ul {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+main div.hero img {
+    width: 100%;
+}
+
+nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+}
+footer div.info {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+footer {
+    background-color: navy;
+    color: whitesmoke;
+    display: flex;
+}
+.social {
+margin-left: 500px;
+margin-top: 250px;
+display: block
+}
