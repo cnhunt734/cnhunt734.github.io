@@ -12,7 +12,7 @@ h1 {
     font-family: URW Chancery L, cursive;
     padding: 10px;
     grid-column: 2;
-    margin-left: 30px;  
+    margin-left: 30px;
 }
 
 h2 {
@@ -20,17 +20,21 @@ h2 {
     border-bottom: 5px double;
     font-style: italic;
 }
-.title1{
+
+.title1 {
     grid-column: 1/2;
     padding-left: 10px;
 }
+
 .title2 {
     grid-column: 1/2;
     padding-left: 10px;
 }
+
 .title3 {
     padding-left: 10px;
 }
+
 header {
     background-color: rgb(182, 211, 196);
     display: grid;
@@ -38,11 +42,13 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .header {
     background-color: white;
     border-radius: 50px 50px 50px 50px;
-    width: fit-content;   
+    width: fit-content;
 }
+
 .img1 {
     border: 1px solid #ccc;
     padding: 15px;
@@ -88,14 +94,17 @@ main {
     grid-column: 2;
     grid-row: 2;
 }
+
 .p2 {
     padding: 10px;
     grid-row: 2;
     grid-column: 1;
 }
+
 .p3 {
     padding: 15px;
 }
+
 .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -159,20 +168,24 @@ footer div.info {
     margin-left: 30px;
     font-size: .85rem;
 }
+
 footer {
     background-color: rgb(41, 95, 50);
     color: whitesmoke;
 }
+
 .fb {
     grid-column: 2;
     margin-left: 38px;
     margin-bottom: 15px;
 }
+
 .ig {
     grid-column: 3;
     padding-left: 4px;
     margin-bottom: 15px;
 }
+
 .tw {
     grid-column: 4;
     padding-top: 5px;
@@ -186,8 +199,9 @@ a:hover {
 a:link {
     text-decoration: none;
 }
+
 @media screen and (max-width: 550px) {
     .______ {
-      display: block;
+        display: block;
     }
-  }
+}
