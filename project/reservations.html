@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.">
+    <title>Reservations</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="images/icon-optimizednbg.png" alt="Logo">
+        </div>
+        <h1>Temple Inn and Suites</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="amenities.html">Amentities</a></li>
+                <li><a href="temple-spot.html">Temple Spotlight</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mainr">
+        <section class="section1r">
+            <h2 class="title1r">Reservations</h2>
+        </section>
+        <section class="section2r"></section>
+<p class="p1r">Please input the information below to book your stay with us at Temple Inn & Suites!</p>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">First Name:</label>
+                    <input type="text" id="fname" name="user_fname">
+                </li>
+                <li>
+                    <label for="name">Last Name:</label>
+                    <input type="text" id="lname" name="user_lname">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="user_phone">
+                </li>
+                <li>
+                    <label for="location">Location:</label>
+                    <input type="text" id="locate" name="site_location">
+                </li>
+                <li>
+                    <label for="date">Check-In:</label>
+                    <input type="date" id="begdate" name="date1">
+                </li>
+                <li>
+                    <label for="date">Check-Out:</label>
+                    <input type="date" id="enddate" name="date2">
+                </li>
+                <li>
+                    <label for="msg">Comments:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Create Reservation</button>
+                </li>
+            </ul>
+        </form>
+        <script>
+            const feedbackElement = document.getElementById('feedback');
+            const formElement = document.forms[0];
+
+            formElement.addEventListener('submit', function (e) {
+                e.preventDefault();
+                feedbackElement.innerHTML = 'Thank you, ' + formElement.user_fname.value +
+                    '! Your reservation has has been made. A confirmation e-mail has been sent to ' +
+                    formElement.user_email.value; +
+                ", which will include all next-step information you will need. Enjoy your stay!"
+                feedbackElement.style.display = "block";
+            });
+        </script>
+</section>
+    </main>
+    <footer>
+        <div class="info">
+            <p>📍 Temple Inn and Suites Main Office</p>
+            <p> 355 Wisconsin Ave</p>
+            <p> Bethseda, MD 20814</p>
+            <P>📞 215-829-9999</P>
+            <p>✉ info@templinn.com</p>
+            <br>
+            <p>Caleb Hunt |Copyright 2020 ©Temple Inn & Suites | All Rights Reserved</p>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"> <img src="images/facebook-icon2.png" class="fb"
+                    alt="Facebook Logo"></a>
+            <a href="https://instagram.com" target="_blank"> <img src="images/betterinsta.png" class="ig"
+                    alt="Instagram Logo"></a>
+            <a href="https://twitter.com" target="_blank"> <img src="images/twitter3.png" class="tw"
+                    alt="Twitter Logo"></a>
+        </div>
+
+    </footer>
+</body>
