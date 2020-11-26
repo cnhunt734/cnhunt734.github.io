@@ -48,7 +48,7 @@ header>h1 {
 
 p {
     font-family: var(--paragraph-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
     padding: 1em
 }
 
@@ -57,6 +57,7 @@ p {
     min-width: 350px;
     margin: auto;
     text-align: center
+    var(--accent2-color)
 }
 
 .colors th {
@@ -100,7 +101,10 @@ nav a {
     padding: 1em;
     min-width: 70px
 }
-
+.wireframe {
+    list-style-type: none;
+    font-family: URW Chancery L, cursive;
+}
 nav a:link,
 nav a:visited {
     color:var(--secondary-color)
