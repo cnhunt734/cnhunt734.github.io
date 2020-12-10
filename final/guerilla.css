@@ -3,21 +3,26 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    background-color: rgb(122, 122, 122);
     font-size: 1 rem;
+
+
 }
 
 .icon {
-    width: 55px;
-    border-radius: 20px;
+    width: 85px;
+    border-radius: 5px;
     padding: 10px;
 }
+
 h1 {
-    color: rgb(75, 32, 95);
-    font-family: "Rockwell", "Courier Bold", Courier;
+    color: rgb(113, 52, 8);
+    font-family: 'Oswald', sans-serif;
     padding: 10px;
     grid-column: 2;
     margin-left: 45px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 h2 {
@@ -29,16 +34,26 @@ h2 {
 h3 {
     color: rgb(27, 5, 5);
 }
+
 h4 {
-    color:white;
+    color: white;
     font-size: 24px;
     border-style: none;
     margin: auto;
     background-color: rgb(0, 0, 0, 0.5);
 }
+
 .title1 {
     grid-column: 1/2;
     padding-left: 10px;
+    margin-top: -20px;
+}
+
+.section1,
+.title2,
+.p1,
+.img1 {
+    margin-top: -80px;
 }
 
 .title2 {
@@ -49,26 +64,30 @@ h4 {
 .title3 {
     padding-left: 10px;
 }
+
 .title1j {
-        grid-column:1;
-        font-size: 35px;
-        border-top: 5px double;
-        border-bottom: 5px double;
-        font-style: italic;
-        padding: 10px;
+    grid-column: 1;
+    font-size: 35px;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    font-style: italic;
+    padding: 10px;
 }
+
 header {
-    background-color: rgb(182, 211, 196);
+    background-color: rgb(20, 37, 28);
     display: grid;
     grid-template-columns: 20px 1fr 1fr;
     justify-content: center;
     align-items: center;
 }
-.intrack{
+
+.intrack {
     margin-top: -125px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .img1 {
     padding: 15px;
     box-shadow: 5px 5px 5px #999;
@@ -82,40 +101,48 @@ header {
     justify-items: center;
     grid-row: 2;
 }
-.img1t{
-    max-width:400px;
+
+.img1t {
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     grid-row: 1;
     grid-column: 1/span 2;
 }
+
 .i1t {
     position: absolute;
     margin-top: -150px;
     margin-left: 125px;
 }
-.img2t{
+
+.img2t {
     grid-row: 2;
     grid-column: 1;
     margin-left: auto;
     padding: 2px;
 }
+
 .i2t {
     grid-row: 2;
     grid-column: 1;
-    
+
 }
-.img3t{
+
+.img3t {
     grid-row: 2;
     grid-column: 2;
     margin-right: auto;
     padding: 2px;
 }
+
 .i3t {
     grid-row: 2;
-    grid-column: 2;  
+    grid-column: 2;
+    max-width: 180px;
 }
-.img4t{
+
+.img4t {
     grid-row: 3;
     grid-column: 1;
     margin-left: auto;
@@ -123,31 +150,38 @@ header {
     height: 266px;
     width: 400px;
 }
+
 .i4t {
     grid-row: 3;
     grid-column: 1;
 }
-.wtlift{
+
+.wtlift {
     margin-left: auto;
     margin-right: auto;
     margin-top: -290px;
+    height: 500px;
 }
+
 .wt {
     position: relative;
     margin-top: -250px;
     justify-items: center;
 }
-.img6t{
+
+.img6t {
     grid-row: 3;
     grid-column: 2;
     padding: 2px;
     margin-right: auto;
 }
+
 .i6t {
     grid-row: 3;
-    grid-column: 2; 
+    grid-column: 2;
 }
-.trainingimg{
+
+.trainingimg {
     display: grid;
     padding: 10px;
     grid-template-columns: 1fr 1fr;
@@ -161,7 +195,7 @@ header div.header img {
 
 body {
     font-size: 16px;
-    background-color: lightgray;
+    background-color: rgb(0, 39, 53);
     padding: 5px;
     margin: 5px;
     font-family: Rockwell, "Courier Bold", Courier;
@@ -170,9 +204,18 @@ body {
 main {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns:lfr lfr;
+    grid-template-columns: lfr lfr;
     grid-template-rows: 1fr 1fr 1fr;
     height: fit-content;
+    background:
+    linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #999 78%),
+    linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+    rgb(100, 100, 100);
+}
+
+.mt {
+    max-height: 3000px;
 }
 
 .section1 {
@@ -180,14 +223,20 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 85px 1fr;
 }
+
 .tren {
-    border-style: solid;
-    width:300px;
+    border-style: ridge;
+    border-color: rgb(110, 122, 2);
+    border-width: 5px;
+    width: 450px;
+    font-size: larger;
+    font-style: italic;
     margin-left: auto;
     margin-right: auto;
     margin-top: -65px;
-    margin-bottom:auto;
+    margin-bottom: auto;
 }
+
 .p1 {
     padding: 10px;
     grid-column: 2;
@@ -198,8 +247,9 @@ main {
 .p2 {
     padding: 10px;
     grid-row: 2;
-    grid-column:1 ;
+    grid-column: 1;
 }
+
 .p1c {
     margin: auto;
     padding-bottom: 20px;
@@ -208,6 +258,7 @@ main {
     font-size: larger;
     color: rgb(56, 27, 27);
 }
+
 .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -221,7 +272,7 @@ main {
 }
 
 .banner-box img {
-    grid-column: 1 / 2 ;
+    grid-column: 1 / 2;
     grid-row: 1;
     margin: auto;
     width: fit-content;
@@ -262,7 +313,8 @@ main div.hero img {
 
 
 nav li {
-    font-family: Rockwell, "Courier Bold", Courier;;
+    font-family: Rockwell, "Courier Bold", Courier;
+    ;
     padding-left: 100px;
     display: inline-block;
     padding: 5px;
@@ -276,9 +328,10 @@ footer div.info {
 }
 
 footer {
-    background-color: rgb(41, 95, 50);
+    background-color: rgb(13, 37, 17);
     color: whitesmoke;
 }
+
 
 .fb {
     grid-column: 2;
@@ -311,6 +364,7 @@ a:link {
         display: block;
     }
 }
+
 form {
     margin: 0 auto;
     width: 400px;
@@ -381,7 +435,7 @@ button {
     padding: 1em;
     border: 3px solid rgb(27, 5, 5);
     border-radius: 1em;
-    background-color:rgb(47, 105, 107);
+    background-color: rgb(47, 105, 107);
     margin-top: 10px;
     margin: 0 auto;
 }
