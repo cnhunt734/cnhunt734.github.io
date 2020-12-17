@@ -75,7 +75,7 @@ h4 {
 }
 
 header {
-    background-color: rgb(28, 51, 39);
+    background-color: rgb(20, 37, 28);
     display: grid;
     grid-template-columns: 20px 1fr 1fr;
     justify-content: center;
@@ -167,8 +167,6 @@ header {
     position: relative;
     margin-top: -250px;
     justify-items: center;
-    margin-left: 30px;
-    margin-right: 60px;
 }
 
 .img6t {
@@ -206,6 +204,7 @@ body {
 main {
     display: grid;
     grid-gap: 10px;
+    grid-template-columns: lfr lfr;
     grid-template-rows: 1fr 1fr 1fr;
     height: fit-content;
     background:
@@ -243,16 +242,12 @@ main {
     grid-column: 2;
     grid-row: 2;
     text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
 }
 
 .p2 {
     padding: 10px;
     grid-row: 2;
     grid-column: 1;
-    margin-top: 40px;
-    font-weight: bold;
 }
 
 .p1c {
@@ -263,13 +258,7 @@ main {
     font-size: larger;
     color: rgb(56, 27, 27);
 }
-select {
-    font-size: 16px;
-    font-family: Rockwell, "Courier Bold", Courier;
-    font: bold;
-    width: 300px;
-    height: auto;
-}
+
 .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -17,7 +17,7 @@
         <h1>Guerrilla Fitness</h1>
         <nav>
             <ul>
-                <li><a href="guerilla.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="training.html">TRAINING</a></li>
                 <li><a href="join.html">JOIN US</a></li>
 
@@ -31,7 +31,7 @@
     <section class="section2j"></section>
 <p class="p1c">Please fill out all applicable fields</p>
     <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
+    <form>
         <ul>
             <li>
                 <label for="name">First Name:</label>
@@ -58,8 +58,13 @@
                 <input type="date" id="begdate" name="date1">
             </li>
             <li>
-                <label for="text">Subscription:</label>
-                <input type="text" id="enddate" name="date2">
+                <label for="subscription">Subscription: </label>
+                <select id="subscription" name="subscription">
+                  <option value="solo">1-Person Plan ($19.99/month)</option>
+                  <option value="partner">2-Person Plan ($24.99/month)</option>
+                  <option value="family">Family Plan ($39.99/month)</option>
+                  <option value="student">Student Plan ($9.99/month)</option>
+                </select>
             </li>
             <li>
                 <label for="msg">Comments:</label>
