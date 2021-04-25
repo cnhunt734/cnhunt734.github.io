@@ -17,4 +17,5 @@ header img {
     float: right;
     height: 160px;
     width: auto;
+    border-radius: 4px;
 }
